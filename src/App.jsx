@@ -14,6 +14,8 @@ import { Layout } from './components/Layout'
 import { RequireAuth } from './hoc/RequireAuth'
 import { AuthProvider } from './hoc/AuthProvider'
 
+// Вложения роутеров друг в друга
+
 function App() {
   return (
     <AuthProvider>
